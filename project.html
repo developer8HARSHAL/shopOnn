@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <title>ShopOnn</title>
+    <link rel="icon" href="images/shoponn logo.png" size="16*16">
+    <link href="project.css" rel="stylesheet" />
+    <script src="project.js"></script>
+
+
+    <script>
+        var counter = 1;
+        setInterval(function () {
+            document.getElementById('radio' + counter).checked = true;
+            counter++;
+            if (counter > 4) {
+                counter = 1;
+            }
+        }, 5000);
+
+    </script>
+</head>
+
+<body>
+    <div id="home"class="home">
+    <nav>
+          
+        <div id="logo"class="logo">
+            <h1> <a href="project.html">SHOP<span>ONN</span></a></h1>
+        </div>
+
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <ul>
+            <li><a href="#">men</a></li>
+            <li><a href="#">women</a></li>
+            <li><a href="#">kids</a></li>
+            <li><a href="#">accessories</a></li>
+        </ul>
+        <div class="search">
+            <input type="text" class="search-box" placeholder="Search products..." autocomplete="on">
+
+            <button class="search-btn"> &#128269;</button>
+        </div>
+
+        <div class="details">
+            <a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a>
+            <div class="wishlist">wishlist</div>
+            <a href="#"><i class="fa fa-shopping-basket" aria-hidden="true"></i></a>
+            <div class="cart">cart</div>
+            <a href="#"><i class="fa fa-user-circle" aria-hidden="true"></i></a>
+            <a href="#" class="button" id="open">signup</a>
+
+        </div>
+
+        <div class="popup" id="popup">
+
+            <div class="signin">
+
+                <button class="close-btn">&times;</button>
+                <h2>signup</h2>
+                <hr>
+
+                <input type="text" class="email" required placeholder="email">
+                <input type="password" class="password" required placeholder="password">
+                <button class="signin-btn">signin</button>
+                <p>already have account/<a href="#">login</a>
+                <p>
+            </div>
+        </div>
+            </div>
+
+    </nav>
+    </div>
+    <div class="co-nav">
+        <h3>"get the best deals, products,brands and lot more"<h3>
+
+                <img src="images/off2.png" alt="" class="offer">
+                <img src="images/discounts.png" alt="" class="discount">
+    </div>
+
+
+    <div class="point">
+        <div class="slider">
+            <div class="slides">
+                <!--radio buttons start-->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <!--radio buttons end-->
+                <!--slide images start-->
+                <div class="slide first">
+                    <img src="images/web img.png" alt="">
+                </div>
+                <div class="slide second">
+                    <img src="images/banner.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="images/main2 img.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="images/banner1.png" alt="">
+                </div>
+                <!--slide images end-->
+                <!--automatic navigation start-->
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+                <!--automatic navigation end-->
+            </div>
+            <!--manual navigation start-->
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+            <!--manual navigation end-->
+        </div>
+    </div>
+
+
+
+    <div class="categories" id="">
+        <a href="#" class="nike"><img src="images/nike.png" alt="">
+
+            <a href="#" class="bata"><img src="images/bata logo.png"></a>
+            <a href="#" class="zara"><img src="images/zara (1).png"></a>
+            <a href="#" class="gucci"><img src="images/gucci.png"></a>
+            <a href="#" class="raymond"><img src="images/raymond (1).png"></a>
+            <a href="#" class="rolex"><img src="images/rolex.png"></a>
+    </div>
+   
+        <h4>top offers on all categoies</h4>
+   
+    <div class="container">
+        <div class="card1">
+            <img src="images/shirt..jpg">
+            <img src="images/van Heuasen.png" alt="" class="gucci">
+            <img src="images/Raymonds-big.png" alt="" class="raymonds">
+            <p><span>&</span>more</p>
+            <div class="line1">
+                <p>get upto<br><span>30% - 70% </span>off</p>
+            </div>
+        </div>
+        <div class="card2">
+            <img src="images/dresss.jpg" alt="">
+            <img src="images/zara.jpg" class="zara">
+            <img src="images/biba.png" class="biba">
+            <p><span>&</span>more</p>
+            <div class="line">
+                <p>get upto<br><span>40% - 60% </span>off</p>
+            </div>
+
+        </div>
+
+        <div class="card3">
+            <img src="images/kids...jpg" alt="">
+            <img src="images/babyhug.png" class="baby">
+            <img src="images/carters.jpg" class="cart">
+            <p><span>&</span>more</p>
+            <div class="line3">
+                <p>get <br><span> min 50% </span>off</p>
+            </div>
+        </div>
+        <div class="card4">
+            <img src="images/rolex watch.jpg" alt="" class="">
+            <img src="images/fastrack.jpg" alt="" class="fast">
+            <img src="images/rolex.jpg" alt="" class="rol">
+            <p><span>&amp;</span>more</p>
+            <div class="line4">
+                <p>get upto<br><span>40% - 60% </span>off</p>
+            </div>
+        </div>
+        <div class="card5">
+            <img src="images/nike shoes.jpg" alt="">
+            <img src="images/adidas.png" alt="" class="adidas">
+            <img src="images/nike..png" alt="" class="nike">
+            <p><span>&amp;</span>more</p>
+            <div class="line5">
+                <p>get <br><span>min 60% </span>off</p>
+            </div>
+        </div>
+        <h5>brand new collections </h5>
+        </div>
+       
+        <a href="#"><img src="images/banner1 (2).png" class="cele"></a>
+         <div class="cont1">
+          <div class="c1">
+            <img src="images/cloth2.jpg">
+            <p>from ₹400</p>
+          </div>
+          <div class="c2">
+            <img src="images/accessories5.jpg">
+            <p>upto 40% off</p>
+          </div>
+          <div class="c3">
+            <img src="images/accessories2.jpg">
+            <p>from ₹200</p>
+          </div>
+          <div class="c4">
+            <img src="images/accessories.jpg">
+            <p>upto 60% off</p>
+          </div>
+          </div>
+        <div class="cont2">
+            <div class="c11">
+            <img src="images/cloth.jpg">
+            <p>from ₹500</p>
+          </div>
+        
+          <div class="c12">
+            <img src="images/accessories6.jpg">
+            <p>upto 40% off</p>
+          </div>
+          <div class="c13">
+            <img src="images/shoes2.jpg">
+            <p>from ₹300</p>
+          </div>
+          <div class="c14">
+            <img src="images/saree.jpg">
+            <p>upto 40% off</p>
+          </div>
+          </div>
+          <div class="off">
+          <a><img class="of"src="images/of.png"></a>
+          <a><img class="casuals"src="images/casuals.png"></a>
+          <a><img class="formals"src="images/formals.png"></a>
+          <a><img class="men"src="images/men.png"></a>
+          </div>
+          <footer>
+           <hr/>
+           <div class="cont3">
+            <input placeholder="email" value placeholder="enter your email id" type="email" class="input"/>
+            <button class="send">send</button>
+            
+            <p><i class="fas fa-mobile-alt"></i>
+                expreance the ShopOon mobile app</p>
+                <a ><img class="google"src="images/google play.jpg"></a>
+                <a ><img class="apple"src="images/apple play.jpg"></a>
+                
+               </div>
+               <div class="cont4">
+                   
+               <h6>about</h6>
+               <ul>
+                   <li>contact us</li>
+                   <li>email</li>
+                   <li>about us</li>
+                   <li>press</li>
+                   <li>corprate information</li>
+                   
+               </ul>
+          
+           </div>
+             <hr/>
+          </footer>
+      
+</body>
+
+</html>
+
